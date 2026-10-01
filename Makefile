@@ -5,7 +5,7 @@ obj-m += foo_device_sim.o
 obj-m += foo_driver.o
 obj-m += foo_irq_driver.o
 obj-m += foo_work_driver.o
-
+obj-m += foo_irq_thread_driver.o
 
 KDIR ?= /lib/modules/$(shell uname -r)/build
 
