@@ -10,6 +10,7 @@ obj-m += foo_completion_driver.o
 obj-m += foo_wq_driver.o
 obj-m += foo_irq_mutex_driver.o
 obj-m += foo_irq_list_driver.o
+obj-m += foo_irq_list_limited_driver.o
 
 KDIR ?= /lib/modules/$(shell uname -r)/build
 
